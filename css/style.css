@@ -12,3 +12,24 @@ body {
 	font-family: "Comic Neue", cursive;
 	background: radial-gradient(circle, rgba(43, 44, 46, 1) 13%, rgba(25, 25, 25, 1) 65%);
 }
+
+.cards {
+	display: flex;
+	width: 1000px;
+}
+.card {
+	position: relative;
+	margin: 10px;
+	height: 800px;
+	text-align: center;
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 7);
+}
+.one {
+	background-image: url("../images/man.jpg");
+}
+.two {
+	background-image: url("../images/woman.jpg");
+}
